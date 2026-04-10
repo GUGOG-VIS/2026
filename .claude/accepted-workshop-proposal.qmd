@@ -1,0 +1,112 @@
+---
+title: Grand Unified Grammar of Graphics (GUGOG)
+format:
+  vgtc-typst-conf-typst:
+    keep-typ: true
+  # typst+article: 
+  #   keep-typ: true
+  #   output-file:  typst-article.pdf
+bibliography: references.bib
+csl: joshpoll-tvcg.csl
+metadata-files: 
+  - _authors.yml
+  - _abstract.yml
+  - _ieee-vgtc-typst-metadata.yml
+---
+
+## **Motivation**
+
+Declarative, modular and compositional approaches to the specification of visualizations, otherwise known as graphical or visualization grammars, often claim Wilkinson's Grammar of Graphics [@wilkinsonGrammarGraphics2005] as motivation, inspiration or foundation.  Despite the shared intellectual lineage, visualization grammars encompass a broad array of different abstractions, primitives, and compositional strategies, along with a diversity of target users and usage scenarios. There are specialized grammars for specific chart types [@vanderplasPenguinsGoParallel2023; @parkAtomGrammarUnit2018], declaring or managing graphical components [@rahmanAnnoGramAnnotativeGrammar; @wongsuphasawatEncodableConfigurableGrammar2020; @pollockGoFishGrammarMore; @grolemundVisualizingComplexData2015], particular types of data and/or semantic domains (e.g. uncertainty visualization [@puProbabilisticGrammarGraphics2020; @kayGgdistVisualizationsDistributions2023; @masonGgdibblerAddUncertainty2026], time-orientated data [@stoiberTimeigramGrammarInteractive2024; @willsVisualizingTimeDesigning2012] or databases [@wuFormalismLibraryDatabase2025]). There are also a number of general-purpose graphical grammars covering static [@wickhamLayeredGrammarGraphics2010; @observableplot; @hassankibirigeHas2k1PlotnineV01532026], interactive [@satyanarayanVegaLiteGrammarInteractive2017; @bostockD3DataDrivenDocuments2011], linked and animated graphics [@jonathanzongAnimatedVegaLiteUnifying2022; @sievertExtendingGgplot2Linked2019].
+
+The design goals and implementation sophistication of graphical grammars also varies greatly. Even tools built upon existing frameworks, such as extensions of ggplot2 [@wickhamGgplot2ElegantGraphics2016], vary greatly in scope and complexity, ranging from convenience wrappers for common chart types, to new grammar systems and graphical elements tied to a particular domain and data semantics. The adoption and user base of graphical grammars also varies greatly across various academic and non-academic contexts, suggesting there is not a single best approach to 'grammar of graphics' implementations. The popularity of open-source visualization grammars such as ggplot2, Vega-Lite and Observable Plot amongst different user bases, coupled with differences in their approaches to operationalizing and implementing Wilkinson's Grammar of Graphics give rise to questions about what makes a grammar system successful and how evaluation methods can reflect these various multi-faceted success criteria.
+
+Our current conceptualization and evaluation of grammar-based approaches lack comprehensive integration of these differences and nuances. Instead, grammars are often compared qualitatively [@satyanarayanCriticalReflectionsVisualization2020; @puHowDataAnalysts2023], or along rather narrowly defined dimensions, such as coverage and generative power over specific visualization design spaces, or cognitive aspects of the notation and syntax [@kruchtenMetricsBasedEvaluationComparison2023; @mcnuttNoGrammarRule2022]. Unfortunately, existing commentary and reflections about the design, implementation and evaluation of graphical grammars are difficult to review because such perspectives are can usually only be included as secondary or tertiary contributions alongside more traditional research contributions (e.g. grammar-based systems and accompanying user studies). Furthermore, these discussions are also fragmented across multiple research and practitioner communities and venues. Relevant discussions can occur anywhere from research literature across visualization and statistical graphics, to the documentation and development repositories for popular grammar systems and beyond.
+
+## **Workshop Goals**
+
+This workshop aims to seek a unified view of the diverse application contexts, functional goals and design philosophies embedded in the proliferation of grammar-based visualization tools, by identifying and addressing gaps in our conceptualization and understanding of visualization grammars. While IEEE VIS regularly features papers on individual visualization systems and grammars, it rarely provides structured opportunities for cross-system comparison, meta-theoretical reflection, community consensus building, and practitioner perspectives. This workshop creates a dedicated forum for systematic reflection on the current state of graphical grammars and charting paths toward more principled, unified approaches.
+
+* **Intellectual Integration:** While individual grammar systems are well-documented, the field lacks comparative frameworks for understanding their similarities, differences, and complementarity. One notable exception is [@kruchtenMetricsBasedEvaluationComparison2023], which focuses on assessing ease of traversal between visualization designs. However, depending on the use case and design goals of a graphical grammar, other features, such as correctness and consistency are also relevant. Such functional requirements and features of graphical grammars, would also benefit from systematic examination, and can help extend evaluation criteria beyond established notions of usability (e.g. cognitive dimensions of notation).  
+* **Bridging Theory and Practice:** Many practitioners struggle to choose between grammar systems or adapt them for novel visualization challenges. By examining current state-of-the-art and identifying similarities, differences and opportunities for improvement or complementary usage, we hope to develop some practical guidance for both tool builders and users. We will also consider issues of learnability and adoption, including challenges and opportunities associated with the steeper learning curve of grammar-based systems. This could include developing natural language interfaces for graphical notations to minimize the initial burden of learning specialized syntax for new users.  
+* **Community Building:** Bringing together researchers working on different grammar systems—from ggplot2 extensions to Vega-Lite variants to novel formalisms—will foster cross-pollination and potentially collaborative efforts toward more unified approaches. Although, there have been various attempts at cross-disciplinary dialogue between Statistics and InfoVis [@gelmanInfovisStatisticalGraphics2013; @kosaraInfoVisMuchMore2013; @wickhamGraphicalCriticismHistorical2013; @gelmanTradeoffsInformationGraphics2013], the interdisciplinary dialogue in this workshop is supported by parallel foundations in mathematical and formal logic (i.e. type theory) across visualization grammar research communities in CS and statistics. In particular, we hope to uncover complementary and possibly duplicated insights across fields, such as algebraic approaches to visualization validity in InfoVis [e.g. @kindlmannAlgebraicProcessVisualization2014] and statistical graphics [e.g. @bartonicekNoMoreNo2025], or formal guarantees in programming languages and preservation of statistical semantics in Wilkinson’s grammar of graphics and closely related work.
+
+The intended outcome of this workshop is the development of a cohesive interdisciplinary research agenda for grammar-based approaches in visualization research. We hope to coalesce a new subfield of visualization research that incorporates complementary perspectives and insights from the various researcher and practitioner communities developing, using and critically analysing graphical grammars. We expect to see follow-up initiatives such as an associated event at JSM 2027, funding applications for extended projects or collaborative meetings based on topics discussed at the workshop, and will plan to publish summary notes of workshop discussions on the workshop website.
+
+## **Related Scientific Initiatives**
+
+This workshop relates to past and forthcoming initiatives in both statistics and computer science. Multiple members of the organizing committee have been involved in one or more of these initiatives. Within VIS itself, grammar focused sessions are a recurring part of the main program, reflecting the proliferation of grammar-inspired research. Unfortunately, the presentation constraints of the full and short paper tracks leave little room for discussion of generalizable and transferable design and implementation lessons. The ‘Special Interest Group on Visualization Grammars’ at CHI21 facilitated discussion around what makes a grammar “good”, including design choices, usability considerations, evaluation criteria and methods. This event predominantly focused on engaging visualization researchers from CS venues (i.e. CHI, VIS, UIST, CSCW, and KDD). By contrast, we will incorporate research developers and engage with researchers from beyond the CS community – namely from statistics and statistical graphics. The Joint Statistical Meeting (JSM) program has also increasingly featured grammar-related research, including the paper session ‘Who are the ggplot2 extenders, and how can you become one?’ in 2025, and the forthcoming invited panel ‘The Past, Present, and Future of ggplot2 Extension Packages’. The past two John M. Chamber Statistical Software Awards presented at JSM have also been awarded to grammar-based visualization tools [@masonGgdibblerAddUncertainty2026; @bartonicekPlotscaperExploreYour2025].
+
+## **Workshop Activities**
+
+We propose a half-day hybrid workshop with expert panels curated from submissions and invited speakers, and structured breakout sessions. The panels will serve to establish foundational understanding of the shared landscape, and facilitate smoother cross-disciplinary discussions in the breakout sessions.
+
+### **Scope of Topics**
+
+Workshop topics include, but are not limited to:
+
+* Novel grammar proposals  
+* Comparative analyses  
+* Implementation experiences  
+* User perspectives  
+* Theoretical frameworks  
+* Vision statements
+
+## **Publication Plan**
+
+The workshop will accept two types of non-archival submissions:
+
+* Short position papers of less than 4 pages. We will not accept system descriptions unless they are illustrative prototypes closely tied to a specific conceptual or philosophical argument.
+* Discussion abstracts of up to 500 words. We invite provocations, opinions and observations on all aspects of grammar-based visualization research.
+
+We will host accepted submissions on the workshop’s website, and also recommend authors share their publications using open-access services. The accepted submissions will not be considered archival, and we will encourage the reuse of content in follow-up publications. Submissions will not be anonymous; authors must include their full names, emails, and affiliations. Lastly, at least one author per accepted submission must register for the conference.
+
+### **Tentative Schedule (3.5 hours)**
+
+Given the interdisciplinary scope of the workshop, we plan to organize a fully hybrid workshop that is open to remote attendance. This workshop is planned as a half-day event, with the following tentative schedule:
+
+* **Session 1:** Introduction to the workshop goals and activities (15 min), followed by lightning talks and brief introductions by participants (30 min), a panel discussion (30 min).  
+* **Break:** Coffee break, and in parallel, collection of discussion topic suggestions via sticky notes or similar participatory tool.  
+* **Session 2:** Announcement of discussion topics (5 min), breakout discussions (40 min), reports by the groups with a short summary discussion (10 min). Topics will be based on submissions and Session 1 discussion.  
+* **Summary and Call to Action:** To conclude the workshop, we will summarize the insights from the panel and breakout discussions, emphasizing potential follow-up initiatives and future research directions (10 min).  
+* **Networking:** After the workshop session, a voluntary workshop lunch will be planned to encourage community building and networking among working groups.
+
+**Back-up policy:** If we receive insufficient submissions, we plan to invite a keynote speaker or expert panellists to provide inspiration for the discussion groups planned for the second part of the workshop. Potential speakers and panellists include core developers of open-source grammars, past presenters at the ggplot2 extenders club, and authors of highly cited or novel work on grammar-based approaches.
+
+### **Call for Participation and Timeline**
+
+* Call opens: May 1, 2026  
+* Short Paper Submission deadline: Aug 1, 2026  
+* Short Paper Author notification: Sep 1, 2026  
+* Discussion Abstracts deadline: Sep 15, 2026  
+* Discussion Abstracts deadline: Oct 1, 2026  
+* Camera-ready: Oct 7, 2026
+
+We intend to advertise across CS and statistics communities, including advertising on IEEE
+and ACM mailing lists, at UseR!, DSSV, JSM and social media (X, LinkedIn, BlueSky, etc.). The discussion abstract deadline is scheduled for a month after the JSM panel session to allow time for attendees of that session to submit.
+
+## **Organizers**
+
+Our organizing committee spans multiple research and practitioner communities, allowing us to reach a broader range of individuals working on visualization grammars and grammar-based approaches.
+
+**Cynthia Huang** is a postdoctoral researcher at the Social Data Science and AI chair at the Ludwig Maximilian University of Munich, Germany where she works on data preparation and visualization tools that incorporate statistical, computational and usability considerations. Previously, she was a PhD candidate, then research fellow, in the department of Econometrics and Business Statistics at Monash University, Australia. During this time, she also undertook an extended visit to the InfoVis group at the University of British Columbia, Vancouver, Canada. Her related work includes a novel graph-based representation and workflow grammar for validating and implementing ex-post data harmonization workflows [@huangUnifiedStatisticalComputational2024], a grammar-based system for extracting canonical tables from spreadsheets [@xiongTableCanoniserInteractiveGrammarPowered2025], and time-aware grammar of graphics geometries, scales and coordinate systems [@huangGgtimeGrammarTemporal2025]. She was co-chair of WOMBAT2025, where she chaired a panel discussion on the design of statistical software, and will be a panellist at the forthcoming ggplot2 session at JSM 2026. Website: [cynthiahqy.com](https://cynthiahqy.com)
+
+**Matthew Kay** is an Associate Professor jointly appointed in Computer Science and Communications Studies at Northwestern University. He works in human-computer interaction and information visualization, with a particular focus on uncertainty visualization, visualization literacy, and the design of human-centered tools for data analysis. His research has been funded by multiple NSF awards, including an award to develop grammars for uncertainty visualizations, which lead to an honorable-mention paper at CHI [@puProbabilisticGrammarGraphics2020], a paper at VIS [@kayGgdistVisualizationsDistributions2023], and the development of the ggdist R package, a widely-used ggplot2 extension for uncertainty visualization. He has also studied how data analysts use visualization grammars in practice [@puHowDataAnalysts2023] and organized a SIG on visualization grammars at CHI 2021 [@puSpecialInterestGroup2021]. He has received multiple best paper awards across human-computer interaction and information visualization venues, including ACM CHI and IEEE VIS, and he received the 2023 IEEE VGTC Visualization Significant New Researcher Award. He was co-chair of the CHI Visualization Papers Subcommittee in 2022 and 2023 and VIS Area Paper Chair for Area 1 (Theoretical and Empirical) at VIS 2024 and 2025. He co-directs the Midwest Uncertainty Collective (https://mucollective.northwestern.edu/).
+
+**Susan Vanderplas** is an associate professor in Statistics at the University of Nebraska-Lincoln. She received her PhD in statistics from Iowa State University in 2015. She researches data visualization, reproducible computing, and machine learning algorithms for forensic pattern matching. Susan previously worked on the R package animint [@hockingAnimint2AnimatedInteractive2024] to extend the ggplot2 grammar of graphics to include interactivity, and has contributed to the 'ggpcp' R package to use the grammar of graphics for parallel coordinate plots [@vanderplasPenguinsGoParallel2023]. Website: [srvanderplas.github.io](https://srvanderplas.github.io)
+
+**Heike Hofmann** Heike Hofmann is the Professor of Methodology in Observational Data and Exploratory Data Analysis in the Department of Statistics at the University of Nebraska-Lincoln. Before joining UNL in Aug 2024, Prof. Hofmann was a faculty member in the Department of Statistics at Iowa State since 2002. She is interested in developing tools and methodology for visualizing large, multivariate, and complex data, and in applications across a range of areas, such as forensic sciences and bioinformatics. She co-founded the Graphics Group, a network of almost 100 members interested in statistical graphics, established in 2002 with weekly meetings around topics on data visualization and statistical computing during the academic year. Her prior work includes numerous ggplot2 and grammar of graphics extensions [@jeppsonGeneralizedMosaicPlots2023; @vanderplasPenguinsGoParallel2023; @hofmannLetterValuePlotsBoxplots2017].
+
+<!-- She has been a key member of the Center for Statistics and Applications in Forensic Evidence (CSAFE, www.forensicstats.org), a NIST Center of Excellence. In this role, she has had a chance to work with legal and forensic practitioners and scientists with the shared goal of developing methodology for a more scientific and fair administration of justice. From 2019 to 2024, she served as the Professor in Charge of the Data Science Program. Under her guidance, the number of majors in the program doubled despite the generally receding number of students during 2020-2022.  The group has grown out of an NSF award #0091953 VIGRE awarded to the Department of Statistics at Iowa State University in 2001. Vertical integration of researchers at all levels of their careers is at the heart of the group: beyond giving interested undergraduate students insight into the research process, graphics group is built on a strong network of former students and faculty members. -->
+
+<!-- Maybe more relevant to the workshop: some of the R packages I have (co-)authored: ggpcp, ggmosaic, lvplot, qqplotr, nullabor -->
+
+**Joyce Robbins** is a Senior Lecturer in the Department of Statistics at Columbia University. Her main interests are data visualization and statistics education, with current work focused on mapping the ggplot2 extension package ecosystem. Since 2017, she has been the sole instructor of Exploratory Data Analysis and Visualization, a core requirement in Columbia's Data Science Institute Masters Program. She is an active member of the Statistical Graphics Section of the American Statistical Association, having served as publications officer and later program chair, and has organized sessions on interactive graphics, high dimensional visualization, and ggplot2 extension packages at recent JSM conferences. Through RForwards, she has co-taught free virtual R package writing workshops as part of the organization's mission to increase the participation of underrepresented groups in the R community.
+
+**Evangeline Reynolds** is a data scientist and educator whose work focuses on tools that make data analytics more fluid and intuitive, with particular attention to reducing cognitive load in both the interpretation of data visualizations and the writing of code to build them. She has taught quantitative methodology at TU Dresden, the University of Denver, and West Point, and also worked as a Data Scientist at West Point.  Her software contributions in the ggplot2 extension space include ggcirclepack, ggrgions, and ggdims, among others.  More recently, she works in developer relations for the ggplot2 extender community, supported by Posit PBC. She co-founded and organizes the ggplot2 extenders club and has developed associated educational resources including 'easy geom recipes' and 'express' methodologies for ad hoc extension and experimental work. She co-founded R Ladies Denver in 2019 and is active in the American Statistical Association at both the national level and through the Colorado-Wyoming chapter.  Website: [github.com/EvaMaeRey](https://github.com/EvaMaeRey)
+
+<!-- Di Cook / Harriet Mason -->
+<!-- Rob / Mitch -->
+<!-- Josh Pollock -->
+<!-- 
+ / Jeffrey Heer / Arvind Satyanarayan / Dominik Moritz / Niklas Elmqvist -->
+

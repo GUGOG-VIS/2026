@@ -7,9 +7,9 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
+      - href: "index.qmd#about"
         text: About
-      - href: call-for-submissions.qmd
+      - href: "index.qmd#call-for-submissions"
         text: Call for Submissions
 
 format:
@@ -18,7 +18,4 @@ format:
       - cosmo
       - brand
     css: styles.css
-    toc: true
-
-
-
+    toc: false
