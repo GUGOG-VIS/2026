@@ -1,0 +1,29 @@
+---
+title: "Grand Unified Grammar of Graphics (GUGOG)"
+subtitle: "A Workshop at IEEE VIS 2026"
+---
+
+Declarative, modular, and compositional approaches to visualization specification—collectively known as graphical or visualization grammars—have proliferated across research and practice. Yet despite sharing intellectual roots in Wilkinson's *Grammar of Graphics*, these systems differ substantially in their abstractions, primitives, design goals, and target users.
+
+**GUGOG** is a half-day hybrid workshop at [IEEE VIS 2026](https://ieeevis.org) that brings together researchers and practitioners working on grammar-based visualization to seek a unified view of this diverse landscape. The workshop provides a dedicated forum for cross-system comparison, meta-theoretical reflection, community consensus building, and practitioner perspectives—structured opportunities that the main conference program rarely affords.
+
+## Workshop Goals
+
+- **Intellectual Integration** — Develop comparative frameworks for understanding the similarities, differences, and complementarity across grammar systems.
+- **Bridging Theory and Practice** — Identify practical guidance for tool builders and users, and explore issues of learnability and adoption.
+- **Community Building** — Foster cross-pollination between researchers working on different grammar systems, spanning InfoVis, statistics, and programming languages.
+
+The intended outcome is a cohesive interdisciplinary research agenda for grammar-based approaches in visualization research.
+
+## Key Dates
+
+| | |
+|---|---|
+| Call opens | May 1, 2026 |
+| Short paper deadline | Aug 1, 2026 |
+| Short paper notification | Sep 1, 2026 |
+| Discussion abstract deadline | Sep 15, 2026 |
+| Discussion abstract notification | Oct 1, 2026 |
+| Camera-ready | Oct 7, 2026 |
+
+See the [Call for Submissions](call-for-submissions.qmd) for full details.
