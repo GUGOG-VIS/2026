@@ -1,1 +1,15 @@
 /* css styles */
+
+/* Organizer profile layouts */
+.organizer {
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-photo {
+  width: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: top;
+}

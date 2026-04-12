@@ -7,7 +7,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: "index.qmd#about"
+      - href: "about.qmd"
         text: About
       - href: "index.qmd#call-for-submissions"
         text: Call for Submissions
