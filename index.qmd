@@ -5,11 +5,13 @@ resources:
   - accepted-workshop-proposal.pdf
 ---
 
-Declarative, modular, and compositional approaches to visualization specification—collectively known as graphical or visualization grammars—have proliferated across visualisation research and practice. However, despite sharing intellectual roots in Wilkinson's *Grammar of Graphics*, these systems differ substantially in their abstractions, primitives, design goals, and target users.
+::: {.hero}
+Declarative, modular, and compositional approaches to visualization specification—collectively known as graphical or visualization grammars—have proliferated across visualization research and practice. However, despite sharing intellectual roots in Wilkinson's *Grammar of Graphics*, these systems differ substantially in their abstractions, primitives, design goals, and target users.
 
 **GUGOG** is a half-day hybrid workshop at [IEEE VIS 2026](https://ieeevis.org/year/2026/welcome/) that brings together researchers and practitioners working on grammar-based visualization to seek a unified view of this diverse landscape. The workshop provides a dedicated forum for cross-system comparison, meta-theoretical reflection, community consensus building, and practitioner perspectives—structured opportunities that the main conference program rarely affords.
 
 Read the full workshop proposal [here](accepted-workshop-proposal.pdf).
+:::
 
 ## Call for Submissions {#call-for-submissions}
 
