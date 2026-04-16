@@ -1,0 +1,82 @@
+/* IEEE VIS 2026 brand colours */
+:root {
+  --vis-rose:       #bd4a72;
+  --vis-orange:     #df6826;
+  --vis-peach:      #f8a45a;
+  --vis-brown-dark: #3b352f;
+  --vis-brown:      #744d2e;
+  --vis-tint:       #fdf6f0;
+}
+
+/* ── Typography ──────────────────────────────────────────── */
+body {
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+/* .quarto-container {
+  max-width: 860px !important;
+} */
+
+/* ── Headings ────────────────────────────────────────────── */
+h1, h2, h3, h4 {
+  color: var(--vis-brown-dark);
+}
+
+h2 {
+  border-bottom: 2px solid var(--vis-rose);
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+/* ── Links ───────────────────────────────────────────────── */
+a {
+  color: var(--vis-rose);
+}
+
+a:hover {
+  color: var(--vis-orange);
+  text-decoration: underline;
+}
+
+/* ── Hero intro block ────────────────────────────────────── */
+.hero {
+  background-color: var(--vis-tint);
+  border-left: 4px solid var(--vis-orange);
+  padding: 1.25rem 1.5rem;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 2rem;
+}
+
+/* ── Timeline table ──────────────────────────────────────── */
+table {
+  width: 100%;
+}
+
+table td:first-child {
+  color: var(--vis-rose);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--vis-tint);
+}
+
+/* ── Organizer cards ─────────────────────────────────────── */
+.organizer {
+  align-items: center;
+  background-color: var(--vis-tint);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.profile-photo {
+  width: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: top;
+  border: 3px solid var(--vis-rose);
+}
