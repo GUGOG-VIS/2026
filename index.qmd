@@ -2,7 +2,7 @@
 title: "Grand Unified Grammar of Graphics (GUGOG)"
 subtitle: "A Workshop at IEEE VIS 2026"
 resources:
-  - accepted-workshop-proposal.pdf
+  - vis26-gugog-website-version.pdf
 ---
 
 ::: {.hero}
@@ -10,7 +10,7 @@ Declarative, modular, and compositional approaches to visualization specificatio
 
 **GUGOG** is a half-day hybrid workshop at [IEEE VIS 2026](https://ieeevis.org/year/2026/welcome/) that brings together researchers and practitioners working on grammar-based visualization to seek a unified view of this diverse landscape. The workshop provides a dedicated forum for cross-system comparison, meta-theoretical reflection, community consensus building, and practitioner perspectives—structured opportunities that the main conference program rarely affords.
 
-Read the full workshop proposal [here](accepted-workshop-proposal.pdf).
+Read the full workshop proposal [here](vis26-gugog-website-version.pdf).
 :::
 
 ## Call for Submissions {#call-for-submissions}
