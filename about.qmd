@@ -51,7 +51,7 @@ The intended outcome is a cohesive interdisciplinary research agenda for grammar
 ::: {layout="[1,4]" .organizer}
 ![](profile-media/joyce-robbins.jpg){.profile-photo fig-alt="Joyce Robbins"}
 
-**Joyce Robbins** is a Senior Lecturer in the Department of Statistics at Columbia University. Her main interests are data visualization and statistics education, with current work focused on mapping the ggplot2 extension package ecosystem. She is an active member of the Statistical Graphics Section of the American Statistical Association and has organized sessions on interactive graphics and ggplot2 extension packages at JSM.
+**Joyce Robbins** is a Senior Lecturer in the Department of Statistics at Columbia University. Her main interests are data visualization and statistics education, with current work focused on mapping the ggplot2 extension package ecosystem. She is an active member of the Statistical Graphics Section of the American Statistical Association and has organized sessions on interactive graphics and ggplot2 extension packages at JSM. [github.com/jtr13](https://github.com/jtr13)
 :::
 
 ::: {layout="[1,4]" .organizer}
