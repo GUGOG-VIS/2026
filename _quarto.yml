@@ -3,6 +3,12 @@ project:
 
 website:
   title: "GUGOG @ IEEE VIS 2026"
+  announcement:
+    icon: megaphone
+    dismissable: true
+    content: "**Submissions are open!** Submit via the [PCS submission system](https://new.precisionconference.com/vgtc) — select the **VIS 2026 GUGOG** track. Deadline: Aug 1, 2026."
+    type: primary
+    position: below-navbar
   navbar:
     background: "#3b352f"
     foreground: "white"
