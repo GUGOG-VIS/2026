@@ -1,13 +1,8 @@
 📣 Call for Submissions: GUGOG @ IEEE VIS 2026
 
-We're inviting submissions to the Grand Unified Grammar of Graphics (GUGOG)
-workshop — a half-day hybrid workshop at IEEE VIS 2026.
+We're inviting submissions to the Grand Unified Grammar of Graphics (GUGOG) workshop — a half-day hybrid workshop at IEEE VIS 2026.
 
-Visualization grammars (ggplot2, Vega-Lite, Observable Plot, and many others)
-share intellectual roots in Wilkinson's Grammar of Graphics, yet differ
-substantially in their abstractions, design goals, and target users. GUGOG
-brings together researchers and practitioners to seek a unified view of this
-diverse landscape.
+Visualization grammars (ggplot2, Vega-Lite, Observable Plot, and many others) share intellectual roots in Wilkinson's Grammar of Graphics, yet differ substantially in their abstractions, design goals, and target users. GUGOG brings together researchers and practitioners to seek a unified view of this diverse landscape.
 
 We welcome two types of non-archival submissions:
 
