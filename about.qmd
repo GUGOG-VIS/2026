@@ -59,3 +59,15 @@ The intended outcome is a cohesive interdisciplinary research agenda for grammar
 
 **Evangeline Reynolds** is a data scientist and educator focused on tools that make data analytics more fluid and intuitive. Her ggplot2 extension contributions include ggcirclepack, ggregions, and ggdims. She works in developer relations for the ggplot2 extender community at Posit PBC, co-founded and organizes the ggplot2 extenders club, and developed the 'easy geom recipes' and 'express' educational resources for ggplot2 extension. [github.com/EvaMaeRey](https://github.com/EvaMaeRey)
 :::
+
+## Program Committee
+
+The program committee supports the organizing committee with submission review, session programming, and facilitation on the day.
+
+::: {.organizer}
+**Cynthia Huang** (LMU Munich) serves as program chair. See her organizer biography above.
+:::
+
+::: {.organizer}
+**Harriet Mason** (AFFILIATION TBC) is a researcher working on uncertainty visualization and statistical graphics. She is a co-author of the ggdibbler R package for adding uncertainty to data visualisations.
+:::
