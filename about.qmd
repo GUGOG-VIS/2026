@@ -69,5 +69,5 @@ The program committee supports the organizing committee with submission review, 
 :::
 
 ::: {.organizer}
-**Harriet Mason** (AFFILIATION TBC) is a researcher working on uncertainty visualization and statistical graphics. She is a co-author of the ggdibbler R package for adding uncertainty to data visualisations.
+**Harriet Mason** is a Postdoctoral Research Fellow working at the intersection of visualisation, statistics, and environmental science at the University of Queensland, Australia. Her research focuses on developing new theory and tools for visualisation and often results in research software, including the cassowaryr and ggdibbler R packages.
 :::
