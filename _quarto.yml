@@ -4,9 +4,9 @@ project:
 website:
   title: "GUGOG @ IEEE VIS 2026"
   announcement:
-    icon: megaphone
+    icon: calendar-event
     dismissable: true
-    content: "**Submissions are open!** Submit via the [PCS submission system](https://new.precisionconference.com/vgtc) — select the **VIS 2026 GUGOG** track. Deadline: Aug 1, 2026."
+    content: "**Submissions are now closed.** Thank you to everyone who submitted. The workshop takes place on **Nov 9, 2026** at IEEE VIS — see the [tentative schedule](index.html#schedule)."
     type: primary
     position: below-navbar
   navbar:
@@ -17,6 +17,8 @@ website:
         text: Home
       - href: "about.qmd"
         text: About
+      - href: "index.qmd#schedule"
+        text: Schedule
       - href: "index.qmd#call-for-submissions"
         text: Call for Submissions
 

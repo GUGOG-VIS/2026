@@ -13,9 +13,46 @@ Declarative, modular, and compositional approaches to visualization specificatio
 Read the full workshop proposal [here](vis26-gugog-website-version.pdf).
 :::
 
+## Tentative Schedule {#schedule}
+
+The workshop runs as a half-day hybrid session on **November 9, 2026**. The
+programme below is tentative and subject to change.
+
+### Session 1 --- 1:00-2:30 PM
+
+| Time | Item |
+|---|---|
+| 1:00 | Paper Talks |
+| 1:30 | Panel discussion --- **Towards a Universal Visualisation Language** |
+| 2:05 | Audience questions |
+| 2:20 | Discussion group topic collection |
+
+### Coffee break --- 2:30-3:00 PM
+
+Discussion topics collection continues through the break.
+
+### Session 2 --- 3:00-4:30 PM
+
+| Time | Item |
+|---|---|
+| 3:00 | Paper Talks |
+| 3:25 | Discussion group formation |
+| 3:35 | Discussion groups |
+| 4:10 | Report back, synthesis, call to action |
+| 4:25 | Closing |
+
 ## Call for Submissions {#call-for-submissions}
 
-We invite submissions to the **Grand Unified Grammar of Graphics (GUGOG)** workshop at IEEE VIS 2026. This is a half-day hybrid workshop open to both in-person and remote participants.
+::: {.callout-important}
+## Submissions are closed
+
+The call for submissions closed on **August 1, 2026**, and accepted authors have
+been notified. The call is kept below for reference. The workshop itself remains
+open to all IEEE VIS attendees, in person and remote --- no submission required
+to attend.
+:::
+
+We invited submissions to the **Grand Unified Grammar of Graphics (GUGOG)** workshop at IEEE VIS 2026. This is a half-day hybrid workshop open to both in-person and remote participants.
 
 ### Scope of Topics
 
@@ -35,7 +72,7 @@ Workshop topics include, but are not limited to:
 
 ### Submission Types
 
-The workshop accepts two types of **non-archival** submissions:
+The workshop accepted two types of **non-archival** submissions:
 
 **Short position papers** (less than 4 pages)
 : Conceptual or philosophical arguments about grammar-based visualization. System descriptions will only be considered if they are illustrative prototypes closely tied to a specific conceptual argument.
@@ -62,4 +99,6 @@ The workshop accepts two types of **non-archival** submissions:
 
 ### Submission Portal
 
-Submit via the [PCS submission system](https://new.precisionconference.com/vgtc) — select the **VIS 2026 GUGOG** track.
+The [PCS submission system](https://new.precisionconference.com/vgtc) is no longer
+accepting submissions for the **VIS 2026 GUGOG** track. Accepted authors should
+submit camera-ready versions there by **October 7, 2026**.
