@@ -68,6 +68,14 @@ The program committee supports the organizing committee with submission review, 
 **Cynthia Huang** (LMU Munich) serves as program chair. See her organizer biography above.
 :::
 
-::: {.organizer}
+::: {layout="[1,4]" .organizer}
+![](profile-media/harriet-mason.jpg){.profile-photo fig-alt="Harriet Mason"}
+
 **Harriet Mason** is a Postdoctoral Research Fellow working at the intersection of visualisation, statistics, and environmental science at the University of Queensland, Australia. Her research focuses on developing new theory and tools for visualisation and often results in research software, including the cassowaryr and ggdibbler R packages.
+:::
+
+::: {layout="[1,4]" .organizer}
+![](profile-media/sherry-zhang.jpeg){.profile-photo fig-alt="Sherry Zhang"}
+
+**Sherry Zhang** is a Postdoctoral Fellow at the University of Texas at Austin, working with Roger Peng. Her research focuses on making applied statistical analysis both easier and more robust by contributing to open source software and developing data analysis theory.
 :::
