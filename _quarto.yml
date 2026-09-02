@@ -17,6 +17,8 @@ website:
         text: Home
       - href: "about.qmd"
         text: About
+      - href: "index.qmd#schedule"
+        text: Schedule
       - href: "index.qmd#call-for-submissions"
         text: Call for Submissions
 
