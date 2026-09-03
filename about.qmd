@@ -77,5 +77,5 @@ The program committee supports the organizing committee with submission review, 
 ::: {layout="[1,4]" .organizer}
 ![](profile-media/sherry-zhang.jpeg){.profile-photo fig-alt="Sherry Zhang"}
 
-**Sherry Zhang** is a Postdoctoral Fellow at the University of Texas at Austin, working with Roger Peng. Her research focuses on making applied statistical analysis both easier and more robust by contributing to open source software and developing data analysis theory.
+**Sherry Zhang** is a Postdoctoral Fellow in the Department of Statistics and Data Science at the University of Texas at Austin. Her research focuses on developing method, visualization, and software tools that support exploratory data analysis. She is the author of the cubble R package, which won the 2024 ASA John M. Chambers Statistical Software Award.
 :::
