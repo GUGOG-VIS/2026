@@ -95,8 +95,8 @@ tbody tr:nth-child(odd) {
 }
 
 .sponsor-logo {
-  width: 260px;
+  height: 64px;
+  width: auto;
   max-width: 100%;
-  height: auto;
   margin-bottom: 0.75rem;
 }

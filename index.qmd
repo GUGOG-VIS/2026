@@ -12,7 +12,7 @@ Declarative, modular, and compositional approaches to visualization specificatio
 
 Read the full workshop proposal [here](vis26-gugog-website-version.pdf).
 
-GUGOG is co-organized with the [Munich Center for Machine Learning (MCML)](https://mcml.ai).
+GUGOG is held in conjunction with [IEEE VIS 2026](https://ieeevis.org/year/2026/welcome/) and co-organized with the [Munich Center for Machine Learning (MCML)](https://mcml.ai).
 :::
 
 ## Tentative Schedule {#schedule}
@@ -106,14 +106,21 @@ accepting submissions for the **VIS 2026 GUGOG** track. Accepted authors should
 submit camera-ready versions there by **October 7, 2026**.
 
 
-## Co-organizer and Support {#support}
+## In Conjunction With {#support}
 
 ::: {.sponsor}
-[![Munich Center for Machine Learning](sponsor-media/mcml-logo.svg){.sponsor-logo fig-alt="Munich Center for Machine Learning (MCML) logo"}](https://mcml.ai)
+[![](sponsor-media/ieee-vis-2026-logo.svg){.sponsor-logo fig-alt="IEEE VIS 2026 logo"}](https://ieeevis.org/year/2026/welcome/)
 
-The **[Munich Center for Machine Learning (MCML)](https://mcml.ai)** is a
-co-organizer of GUGOG and supports the workshop. MCML is the joint AI research
-center of LMU Munich and TU Munich, and one of six national AI Competence
-Centers in Germany, funded by the German Federal Ministry of Research,
-Technology and Space and the Free State of Bavaria.
+GUGOG is a half-day workshop held in conjunction with **[IEEE VIS 2026](https://ieeevis.org/year/2026/welcome/)**
+in Boston, Massachusetts, November 9, 2026. The workshop is open to all IEEE VIS
+attendees, in person and remote.
+:::
+
+::: {.sponsor}
+[![](sponsor-media/mcml-logo.svg){.sponsor-logo fig-alt="Munich Center for Machine Learning (MCML) logo"}](https://mcml.ai)
+
+GUGOG is co-organized with and supported by the **[Munich Center for Machine Learning (MCML)](https://mcml.ai)**,
+the joint AI research center of LMU Munich and TU Munich, and one of six national
+AI Competence Centers in Germany, funded by the German Federal Ministry of
+Research, Technology and Space and the Free State of Bavaria.
 :::
