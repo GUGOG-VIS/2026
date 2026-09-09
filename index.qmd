@@ -13,6 +13,30 @@ Declarative, modular, and compositional approaches to visualization specificatio
 Read the full workshop proposal [here](vis26-gugog-website-version.pdf).
 :::
 
+## Panel --- Towards a Universal Visualisation Language {#panel}
+
+::: {.hero}
+Grammar-based systems all trace their lineage to Wilkinson's *Grammar of
+Graphics*, yet they diverge sharply in their primitives, composition rules,
+design goals, and intended users. This panel asks the question that motivates
+the workshop: is a universal visualisation language a coherent goal, or does the
+diversity of grammars reflect genuine differences in what people need to
+express?
+
+Panellists will draw on their own experience building and studying grammars and
+languages for visualisation to consider what a shared foundation would have to
+account for --- interaction, computation and data access, diagrams beyond
+statistical charts, and the practicalities of learnability and adoption --- and
+where unification would cost more than it gains. The discussion opens the
+landscape for the breakout sessions that follow in the afternoon.
+
+**Panellists:** Josh Pollock, Eugene Wu, and Andrew McNutt.
+
+Moderated by **Cynthia Huang**. The panel runs from 1:30 PM, followed by
+audience questions at 2:05 PM --- remote attendees can put questions to the
+panel alongside those in the room.
+:::
+
 ## Tentative Schedule {#schedule}
 
 The workshop runs as a half-day hybrid session on **November 9, 2026**. The
@@ -23,7 +47,7 @@ programme below is tentative and subject to change.
 | Time | Item |
 |---|---|
 | 1:00 | Paper Talks |
-| 1:30 | Panel discussion --- **Towards a Universal Visualisation Language** |
+| 1:30 | [Panel discussion --- **Towards a Universal Visualisation Language**](#panel) |
 | 2:05 | Audience questions |
 | 2:20 | Discussion group topic collection |
 
