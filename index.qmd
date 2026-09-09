@@ -11,6 +11,8 @@ Declarative, modular, and compositional approaches to visualization specificatio
 **GUGOG** is a half-day hybrid workshop at [IEEE VIS 2026](https://ieeevis.org/year/2026/welcome/) that brings together researchers and practitioners working on grammar-based visualization to seek a unified view of this diverse landscape. The workshop provides a dedicated forum for cross-system comparison, meta-theoretical reflection, community consensus building, and practitioner perspectives—structured opportunities that the main conference program rarely affords.
 
 Read the full workshop proposal [here](vis26-gugog-website-version.pdf).
+
+GUGOG is co-organized with the [Munich Center for Machine Learning (MCML)](https://mcml.ai).
 :::
 
 ## Tentative Schedule {#schedule}
@@ -102,3 +104,16 @@ The workshop accepted two types of **non-archival** submissions:
 The [PCS submission system](https://new.precisionconference.com/vgtc) is no longer
 accepting submissions for the **VIS 2026 GUGOG** track. Accepted authors should
 submit camera-ready versions there by **October 7, 2026**.
+
+
+## Co-organizer and Support {#support}
+
+::: {.sponsor}
+[![Munich Center for Machine Learning](sponsor-media/mcml-logo.svg){.sponsor-logo fig-alt="Munich Center for Machine Learning (MCML) logo"}](https://mcml.ai)
+
+The **[Munich Center for Machine Learning (MCML)](https://mcml.ai)** is a
+co-organizer of GUGOG and supports the workshop. MCML is the joint AI research
+center of LMU Munich and TU Munich, and one of six national AI Competence
+Centers in Germany, funded by the German Federal Ministry of Research,
+Technology and Space and the Free State of Bavaria.
+:::

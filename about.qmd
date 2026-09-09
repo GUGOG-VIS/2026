@@ -24,6 +24,8 @@ The intended outcome is a cohesive interdisciplinary research agenda for grammar
 
 ## Organizers
 
+GUGOG is co-organized with the [Munich Center for Machine Learning (MCML)](https://mcml.ai), the joint AI research center of LMU Munich and TU Munich, which also supports the workshop.
+
 ::: {layout="[1,4]" .organizer}
 ![](profile-media/cynthia-huang.jpg){.profile-photo fig-alt="Cynthia Huang"}
 
