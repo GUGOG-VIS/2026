@@ -15,6 +15,29 @@ Read the full workshop proposal [here](vis26-gugog-website-version.pdf).
 GUGOG is held in conjunction with [IEEE VIS 2026](https://ieeevis.org/year/2026/welcome/) and co-organized with the [Munich Center for Machine Learning (MCML)](https://mcml.ai).
 :::
 
+## Panel: Towards a Universal Visualisation Language {#panel}
+
+::: {layout="[1,4]" .organizer}
+![](panel/headshot-andrew-mcnutt.jpeg){.profile-photo fig-alt="Andrew McNutt"}
+
+{{< include panel/_andrew-mcnutt.md >}}
+
+:::
+
+::: {layout="[1,4]" .organizer}
+![](panel/headshot-eugene-wu.png){.profile-photo fig-alt="Eugene Wu"}
+
+{{< include panel/_eugene-wu.md >}}
+
+:::
+
+::: {layout="[1,4]" .organizer}
+![](panel/headshot-josh-pollock.jpeg){.profile-photo fig-alt="Josh Pollock"}
+
+{{< include panel/_josh-pollock.md >}}
+
+:::
+
 ## Tentative Schedule {#schedule}
 
 The workshop runs as a half-day hybrid session on **November 9, 2026**. The
@@ -25,7 +48,7 @@ programme below is tentative and subject to change.
 | Time | Item |
 |---|---|
 | 1:00 | Paper Talks |
-| 1:30 | Panel discussion --- **Towards a Universal Visualisation Language** |
+| 1:30 | Panel discussion --- [**Towards a Universal Visualisation Language**](#panel) |
 | 2:05 | Audience questions |
 | 2:20 | Discussion group topic collection |
 
