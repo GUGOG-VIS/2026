@@ -17,6 +17,10 @@ GUGOG is held in conjunction with [IEEE VIS 2026](https://ieeevis.org/year/2026/
 
 ## Panel: Towards a Universal Visualisation Language {#panel}
 
+::: {.hero}
+{{< include panel/_description.qmd >}}
+:::
+
 ::: {layout="[1,4]" .organizer}
 ![](panel/headshot-andrew-mcnutt.jpeg){.profile-photo fig-alt="Andrew McNutt"}
 

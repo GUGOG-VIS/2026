@@ -1,0 +1,14 @@
+Grammar-based systems all trace their lineage to Wilkinson's *Grammar of
+Graphics*, yet they diverge sharply in their primitives, composition rules,
+design goals, and intended users. This panel asks the question that motivates
+the workshop: is a universal visualisation language a coherent goal, or does the diversity of grammars reflect genuine differences in what people need to
+express?
+
+Panellists will draw on their own experience building and studying grammars and
+languages for visualisation to consider what a shared foundation would have to
+account for --- interaction, computation and data access, diagrams beyond
+statistical charts, and the practicalities of learnability and adoption --- and
+where unification would cost more than it gains. The discussion opens the
+landscape for the breakout sessions that follow in the afternoon.
+
+Moderated by [Cynthia Huang](about.qmd#organizers).
