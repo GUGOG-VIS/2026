@@ -42,6 +42,11 @@ GUGOG is held in conjunction with [IEEE VIS 2026](https://ieeevis.org/year/2026/
 
 :::
 
+## Accepted Submissions {#papers}
+
+Seven short position papers were accepted. Five will be presented as talks;
+all seven camera-ready versions are available on the [accepted submissions page](papers.qmd).
+
 ## Tentative Schedule {#schedule}
 
 The workshop runs as a half-day hybrid session on **November 9, 2026**. The
@@ -129,8 +134,8 @@ The workshop accepted two types of **non-archival** submissions:
 ### Submission Portal
 
 The [PCS submission system](https://new.precisionconference.com/vgtc) is no longer
-accepting submissions for the **VIS 2026 GUGOG** track. Accepted authors should
-submit camera-ready versions there by **October 7, 2026**.
+accepting submissions for the **VIS 2026 GUGOG** track. Camera-ready versions
+were due **October 7, 2026** and are available on the [papers page](papers.qmd).
 
 
 ## In Conjunction With {#support}

@@ -1,0 +1,13 @@
+```{=html}
+<% for (const item of items) { %>
+<div class="paper">
+  <h3 class="paper-title"><a href="<%- item.pdf %>"><%= item.title %></a></h3>
+  <p class="paper-authors"><strong><%= item.authors %></strong><br><span class="paper-affil"><%= item.affiliations %></span></p>
+  <p class="paper-links"><a href="<%- item.pdf %>">PDF</a></p>
+  <details class="paper-abstract">
+    <summary>Abstract</summary>
+    <p><%= item.abstract %></p>
+  </details>
+</div>
+<% } %>
+```

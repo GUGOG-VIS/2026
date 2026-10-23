@@ -1,0 +1,165 @@
+- title: "Mind Your νs and Qs: A Categorical Framework for Specifying Visualization Components"
+  authors: "Hannah Aizenman, Mikael Vejdemo-Johansson, Thomas Caswell, Michael Grossberg"
+  affiliations: "CUNY Graduate Center; CUNY College of Staten Island; Brookhaven National Laboratory; City College of New York"
+  presenting: true
+  pdf: papers/pdf/aizenman-et-al.pdf
+  abstract: >
+    Graphical grammars express how to put visual elements together; we propose
+    a methodology for defining those visual elements in a manner that guarantees
+    that they are structure preserving. Fiber bundles provide a uniform
+    interface for describing a variety of data (tables, images, networks, etc.)
+    in a manner that independently encodes the mathematical structure of the
+    continuity and fields of the dataset. Modeling the data containers that
+    store the datasets as sheaves provides a framework for specifying
+    visualization methods that are designed to work regardless of how the
+    dataset is stored, whether on disk, distributed, or on demand. Specifying
+    the visualization library components as natural transforms of sheaves means
+    that the constraints that the component must satisfy to be structure
+    preserving can be specified as the set of morphisms on the data and graphic
+    sheaves, including the structure on the continuity and fields of the data.
+    Formally expressing how visual elements are constructed using category
+    theory means we can translate those constraints into pseudocode, which can
+    be used to implement the words in the visual sentence in a way that ensures
+    that the sentences generate images that are faithful translations of the
+    data.
+
+- title: "On the Inconsistency in Grammar Evaluations"
+  authors: "Lemara Williams"
+  affiliations: "Washington University in St. Louis"
+  presenting: true
+  pdf: papers/pdf/williams.pdf
+  abstract: >
+    Current evaluation methods for visualization grammars are fragmented and
+    inadequate. This work explores the community's lack of a standardized
+    approach to evaluating grammars and comparing them. We propose broadening
+    the evaluation criteria to include metrics like ease of use, conciseness,
+    expressivity, and more rigorous evaluation techniques.
+
+- title: "Balancing constriction and expansion for domain-specific grammars"
+  authors: "Jason Cory Brunson"
+  affiliations: "Laboratory for Systems Medicine, University of Florida"
+  presenting: true
+  pdf: papers/pdf/brunson.pdf
+  abstract: >
+    Graphical grammars distinguish from heuristic typologies in constituting
+    closed formal systems whose product diversity arises from recombination
+    rather than from de novo redesign. In practice, the scope of an
+    implementation is constrained both by what options have been implemented
+    for each component (e.g. the polar coordinatization, the grouped count
+    statistic, and the rectangle geometric element) and by what combinations
+    are enabled (these three yielding a pie graphic). In the interest of
+    flexibility, implementations are generally permissive of syntactically
+    valid combinations. However, within some domains, universal or conditional
+    rules may be in place to ensure that graphics faithfully communicate
+    important properties of the input data, such that permitting violations
+    would compromise their integrity. I will present geometric data analysis as
+    a motivating case study for this situation. Visualizations of point clouds,
+    and especially the use of biplots, relies universally on a unit aspect
+    ratio and conditionally on coordinate standardization for plot elements to
+    approximate geometric relationships among data elements. Rather than a
+    limitation of graphical grammar, these should be viewed as opportunities to
+    explore the phrase spaces of different graphical domains. Indeed, the
+    geometric constraints above enable the meaningful use of two families of
+    statistical transformation (projections of constructions in higher
+    dimensions and constructions in relation to referent points) that would
+    otherwise produce uninterpretable graphics. This leads me to argue for a
+    change in language from Wilkinson's assertion that, while a grammatical
+    system can produce hideous graphics, it cannot produce meaningless ones. I
+    suggest that meaningfulness and meaninglessness are not mathematical
+    properties secured by formal rules but semantic properties vested with
+    cultural significance, and that graphical grammars must adapt to the
+    culture of a domain in order to serve as trustworthy tools for
+    communicating information within it.
+
+- title: "The Grammar of Graphics Needs Verbs: Towards a GUGOG"
+  authors: "Josh M. Pollock"
+  affiliations: "Independent Researcher"
+  presenting: true
+  pdf: papers/pdf/pollock.pdf
+  abstract: >
+    The Grammar of Graphics (GoG) made significant strides toward unifying
+    previously incompatible chart abstractions into a shared conceptual model.
+    Today, we face a related problem. Inspired by the GoG, we have a
+    proliferation of domain-specific grammars whose compositional ideas are
+    difficult to compare and combine. I argue that one source of this
+    divergence is that while the GoG gives us a powerful set of nouns for
+    statistical graphics (marks), it provides no equally general set of verbs
+    for composing marks together. Through this lens, we can understand recent
+    grammars as specialized extensions of the GoG with verbs for arranging,
+    compositing, repeating, or otherwise relating marks to each other. But
+    because each grammar introduces these operations in its own language,
+    closely related ideas are still difficult to compare, combine, and carry
+    into practice. In this position paper, I show how the GoFish grammar's
+    relations and operators can represent three recent grammars in a shared
+    system. GoFish allows the same verbs to be used across all three systems,
+    making it easier to compare and contrast grammars and identify their core
+    contributions.
+
+- title: "Semantic Validity vs. Graphical Arrangement in Visualization Grammars"
+  authors: "Cynthia A. Huang, Matthew Kay"
+  affiliations: "LMU Munich and Munich Center for Machine Learning (MCML); Northwestern University"
+  presenting: true
+  pdf: papers/pdf/huang-kay.pdf
+  abstract: >
+    Systems for modular, declarative and compositional specification for data
+    visualizations, otherwise known as visualization grammars, often claim
+    Wilkinson's Grammar of Graphics as motivation, inspiration or foundation.
+    However, despite the shared intellectual lineage, visualization grammars
+    can vary greatly in design scope and focus. In particular, systems that
+    strongly adhere to domain-specific notions of correctness must trade-off
+    expressivity for validity. This trade-off between semantics and graphical
+    flexibility is currently under-articulated, leading to difficulty
+    integrating various GoG-inspired visualization contributions, especially
+    between InfoVis and Statistical Graphics. We propose three new types of
+    visualization contributions to support such integration: Semantic Validity
+    Theories, Semantic Visualization Systems and Graphical Arrangement Systems.
+    The first two prioritize the adherence of data visualizations to
+    correctness conditions, such as statistical or mathematical transformations
+    and data semantics, whilst the third largely leave validity concerns to the
+    user. We illustrate these new contribution types using examples from two
+    recent grammar of graphics inspired papers, and show how they supported
+    more nuanced notions of expressivity and usability in evaluation and design
+    of visualization systems.
+
+- title: "Can the Grammar of Graphics Describe Data Glyphs? Exploring the Application of the Grammar"
+  authors: "Barbara Nascimento, João M. Cunha, Evgheni Polisciuc"
+  affiliations: "Institute for Interdisciplinary Research, University of Coimbra; CISUC/LASI, University of Coimbra"
+  presenting: false
+  pdf: papers/pdf/nascimento-et-al.pdf
+  abstract: >
+    The Grammar of Graphics (GoG) provides a formal and compositional framework
+    for describing how data are transformed into graphical representations.
+    Although grammar-based approaches have been widely applied to conventional
+    visualisations, their applicability to data glyphs has not been fully
+    explored. Data glyphs are composite visual entities that encode multiple
+    data dimensions within a single graphical object and may employ
+    heterogeneous visual elements, mapping strategies, and internal layouts.
+    This work investigates whether the GoG can serve as a foundation for the
+    grammar-based generation of data glyphs. We conduct a theoretical analysis
+    of the GoG layers and apply them to two representative glyphs with distinct
+    structural characteristics: a star glyph and a Chernoff face. The
+    comparison indicates that the star glyph can be described through a
+    relatively direct application of the original layered pipeline. In
+    contrast, the composite structure of the Chernoff face requires
+    component-specific mappings and suggests the need for an iterative
+    application of the graph layers followed by an explicit graphical
+    composition mechanism. These findings indicate that the GoG provides a
+    useful foundation for describing data glyph construction but may require
+    adaptations to support heterogeneous components and complex internal
+    layouts. This work constitutes an initial theoretical investigation and
+    provides directions for future grammar-based approaches to data glyph
+    generation.
+
+- title: "Towards a natural language interface for graphic grammars and for specifying visualisation types"
+  authors: "Yuri Engelhardt, Clive Richards"
+  affiliations: "University of Twente; Birmingham City University"
+  presenting: false
+  pdf: papers/pdf/engelhardt-richards.pdf
+  abstract: >
+    We propose a system for generating natural language sentences that can be
+    used to describe the declarative, modular and compositional aspects of
+    visualisation grammars, and to specify visualisation types, while being
+    accessible to people who have no acquaintance with formal syntax or
+    coding. The system builds on 'The Languages of Visualisation', which also
+    includes Gestalt aspects of visualisations, and has in turn informed recent
+    systems such as BlueFish and GoFish.
