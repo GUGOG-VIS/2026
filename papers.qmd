@@ -1,0 +1,42 @@
+---
+title: "Accepted Submissions"
+subtitle: "GUGOG @ IEEE VIS 2026"
+listing:
+  - id: presented
+    contents: papers/papers.yml
+    include:
+      presenting: true
+    template: papers/_listing.ejs
+    sort: false
+    page-size: 50
+  - id: also-accepted
+    contents: papers/papers.yml
+    include:
+      presenting: false
+    template: papers/_listing.ejs
+    sort: false
+    page-size: 50
+---
+
+::: {.hero}
+Seven short position papers were accepted to GUGOG. Camera-ready versions are
+hosted here. Submissions are **non-archival**, and copyright remains with the
+authors.
+:::
+
+## Presented at the Workshop {#presented-papers}
+
+Five of the accepted papers will be presented as talks on **November 9, 2026**
+(see the [schedule](index.qmd#schedule)).
+
+::: {#presented}
+:::
+
+## Also Accepted {#also-accepted-papers}
+
+These submissions were accepted, but their authors are not able to attend in
+person, and we are unable to support hybrid presentations. They will not be
+given a talk slot, but their camera-ready versions are included here.
+
+::: {#also-accepted}
+:::

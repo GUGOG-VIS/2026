@@ -1,12 +1,14 @@
 project:
   type: website
+  resources:
+    - papers/pdf/*.pdf
 
 website:
   title: "GUGOG @ IEEE VIS 2026"
   announcement:
     icon: calendar-event
     dismissable: true
-    content: "**Submissions are now closed.** Thank you to everyone who submitted. The workshop takes place on **Nov 9, 2026** at IEEE VIS — see the [tentative schedule](index.html#schedule)."
+    content: "**Submissions are now closed.** Thank you to everyone who submitted. The workshop takes place on **Nov 9, 2026** at IEEE VIS — see the [tentative schedule](index.html#schedule) and the [accepted papers](papers.html)."
     type: primary
     position: below-navbar
   navbar:
@@ -17,6 +19,8 @@ website:
         text: Home
       - href: "about.qmd"
         text: About
+      - href: papers.qmd
+        text: Papers
       - href: "index.qmd#schedule"
         text: Schedule
       - href: "index.qmd#call-for-submissions"
