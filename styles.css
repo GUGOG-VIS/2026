@@ -100,3 +100,31 @@ tbody tr:nth-child(odd) {
   max-width: 100%;
   margin-bottom: 0.75rem;
 }
+
+/* ── Accepted papers ─────────────────────────────────────── */
+.paper {
+  border-left: 4px solid var(--vis-rose);
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.paper-title {
+  margin: 0 0 0.25rem;
+  font-size: 1.2rem;
+}
+
+.paper-authors,
+.paper-links {
+  margin: 0 0 0.25rem;
+}
+
+.paper-affil {
+  font-size: 0.9em;
+  color: var(--vis-brown);
+}
+
+.paper-abstract summary {
+  cursor: pointer;
+  color: var(--vis-rose);
+  font-weight: 600;
+}
