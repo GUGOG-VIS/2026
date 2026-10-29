@@ -44,7 +44,7 @@ GUGOG is held in conjunction with [IEEE VIS 2026](https://ieeevis.org/year/2026/
 
 ## Accepted Submissions {#papers}
 
-Seven short position papers were accepted. Five will be presented as talks;
+Seven short position papers were accepted. Six will be presented as talks;
 all seven camera-ready versions are available on the [accepted submissions page](papers.qmd).
 
 ## Tentative Schedule {#schedule}

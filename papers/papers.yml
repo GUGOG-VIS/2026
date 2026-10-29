@@ -124,7 +124,7 @@
 - title: "Can the Grammar of Graphics Describe Data Glyphs? Exploring the Application of the Grammar"
   authors: "Barbara Nascimento, João M. Cunha, Evgheni Polisciuc"
   affiliations: "Institute for Interdisciplinary Research, University of Coimbra; CISUC/LASI, University of Coimbra"
-  presenting: false
+  presenting: true
   pdf: papers/pdf/nascimento-et-al.pdf
   abstract: >
     The Grammar of Graphics (GoG) provides a formal and compositional framework
