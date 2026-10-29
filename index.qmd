@@ -56,7 +56,9 @@ programme below is tentative and subject to change.
 
 | Time | Item |
 |---|---|
-| 1:00 | Paper Talks |
+| 1:00 | Jason Cory Brunson, "Balancing constriction and expansion for domain-specific grammars" |
+| 1:10 | Josh M. Pollock, "The Grammar of Graphics Needs Verbs: Towards a GUGOG" |
+| 1:20 | Cynthia A. Huang and Matthew Kay, "Semantic Validity vs. Graphical Arrangement in Visualization Grammars" |
 | 1:30 | Panel discussion --- [**Towards a Universal Visualisation Language**](#panel) |
 | 2:05 | Audience questions |
 | 2:20 | Discussion group topic collection |
@@ -69,8 +71,10 @@ Discussion topics collection continues through the break.
 
 | Time | Item |
 |---|---|
-| 3:00 | Paper Talks |
-| 3:25 | Discussion group formation |
+| 3:00 | Barbara Nascimento, João M. Cunha, and Evgheni Polisciuc, "Can the Grammar of Graphics Describe Data Glyphs? Exploring the Application of the Grammar" (pre-recorded) |
+| 3:10 | Lemara Williams, "On the Inconsistency in Grammar Evaluations" |
+| 3:20 | Hannah Aizenman, Mikael Vejdemo-Johansson, Thomas Caswell, and Michael Grossberg, "Mind Your νs and Qs: A Categorical Framework for Specifying Visualization Components" |
+| 3:30 | Discussion group formation |
 | 3:35 | Discussion groups |
 | 4:10 | Report back, synthesis, call to action |
 | 4:25 | Closing |
