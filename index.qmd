@@ -69,7 +69,7 @@ Discussion topics collection continues through the break.
 
 | Time | Item |
 |---|---|
-| 3:00 | Paper Talks |
+| 3:00 | Paper Talks <br> Barbara Nascimento, João M. Cunha, and Evgheni Polisciuc, "Can the Grammar of Graphics Describe Data Glyphs? Exploring the Application of the Grammar" (pre-recorded)<br>Lemara Williams, "On the Inconsistency in Grammar Evaluations" <br>Hannah Aizenman, Mikael Vejdemo-Johansson, Thomas Caswell, and Michael Grossberg, "Mind Your νs and Qs: A Categorical Framework for Specifying Visualization Components"|
 | 3:25 | Discussion group formation |
 | 3:35 | Discussion groups |
 | 4:10 | Report back, synthesis, call to action |
