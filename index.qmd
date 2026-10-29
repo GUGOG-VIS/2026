@@ -56,7 +56,7 @@ programme below is tentative and subject to change.
 
 | Time | Item |
 |---|---|
-| 1:00 | Paper Talks |
+| 1:00 | Paper Talks: <br> Jason Cory Brunson, "Balancing constriction and expansion for domain-specific grammars" <br> Josh M. Pollock, "The Grammar of Graphics Needs Verbs: Towards a GUGOG" <br> Cynthia A. Huang and Matthew Kay, "Semantic Validity vs. Graphical Arrangement in Visualization Grammars"|
 | 1:30 | Panel discussion --- [**Towards a Universal Visualisation Language**](#panel) |
 | 2:05 | Audience questions |
 | 2:20 | Discussion group topic collection |
