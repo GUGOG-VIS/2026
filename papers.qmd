@@ -26,7 +26,7 @@ authors.
 
 ## Presented at the Workshop {#presented-papers}
 
-Five of the accepted papers will be presented as talks on **November 9, 2026**
+Six of the accepted papers will be presented as talks on **November 9, 2026**
 (see the [schedule](index.qmd#schedule)).
 
 ::: {#presented}
